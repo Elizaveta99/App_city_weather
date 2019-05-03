@@ -16,6 +16,7 @@
 		C9E0C49E227B722700F3C0B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0C49D227B722700F3C0B0 /* main.m */; };
 		C9E0C4A8227B722700F3C0B0 /* application_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0C4A7227B722700F3C0B0 /* application_2Tests.m */; };
 		C9E0C4B3227B722700F3C0B0 /* application_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0C4B2227B722700F3C0B0 /* application_2UITests.m */; };
+		C9E0C4C2227B8F4E00F3C0B0 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E0C4C1227B8F4E00F3C0B0 /* City.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C9E0C4AE227B722700F3C0B0 /* application_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = application_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E0C4B2227B722700F3C0B0 /* application_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = application_2UITests.m; sourceTree = "<group>"; };
 		C9E0C4B4227B722700F3C0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E0C4C0227B8B4A00F3C0B0 /* City.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		C9E0C4C1227B8F4E00F3C0B0 /* City.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				C9E0C49C227B722700F3C0B0 /* Info.plist */,
 				C9E0C49D227B722700F3C0B0 /* main.m */,
 				C9E0C494227B722400F3C0B0 /* application_2.xcdatamodeld */,
+				C9E0C4C0227B8B4A00F3C0B0 /* City.h */,
+				C9E0C4C1227B8F4E00F3C0B0 /* City.m */,
 			);
 			path = application_2;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E0C4C2227B8F4E00F3C0B0 /* City.m in Sources */,
 				C9E0C490227B722400F3C0B0 /* ViewController.m in Sources */,
 				C9E0C496227B722400F3C0B0 /* application_2.xcdatamodeld in Sources */,
 				C9E0C49E227B722700F3C0B0 /* main.m in Sources */,
